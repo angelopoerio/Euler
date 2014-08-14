@@ -1,1 +1,1 @@
-This repository contains my solutions for http://projecteuler.net/ challenges
+This repository contains my solutions for http://projecteuler.net/ challenges.
