@@ -1,6 +1,6 @@
 %% Solution for http://projecteuler.net/problem=14
 %% This can run faster if you distribute the program on many Erlang nodes (process_seq processes)
-%% An other improvement is to cache the already computed sequence
+%% An other improvement is to cache the already computed sequences
 %% Author: Angelo Poerio <angelo.poerio@gmail.com>
 
 -module(solution).
