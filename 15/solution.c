@@ -1,7 +1,8 @@
 /* 
 	 Solution for http://projecteuler.net/problem=15
 	 A better solution is here -> http://zacharydenton.com/project-euler-solutions/15/
-	 This program uses a bruteforce approach to find all the routes.
+	 This program uses a bruteforce approach to find all the routes, this is not the optimal way
+	 but it is interesting to deal with graphs.
 	 It takes 6 hours to run on my laptop :)
 	 Author: Angelo Poerio <angelo.poerio@gmail.com>
 */
@@ -19,7 +20,7 @@ struct Node {
 typedef struct Node Node;
 static long long int routesCnt = 0;
 
-Node ***build_matrix(void) { /* build the graph that rapresents the grid 20x20 */
+Node ***build_matrix(void) { /* build the graph that represents the grid 20x20 */
 	Node ***matrix = malloc(sizeof(Node **) * MATRIX_SIZE);
 	int i,j;
 
