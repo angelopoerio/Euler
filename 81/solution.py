@@ -1,4 +1,4 @@
-# Solution for http://projecteuler.net/problem=48
+# Solution for http://projecteuler.net/problem=81
 # Author: Angelo Poerio <angelo.poerio@gmail.com>
 
 import os
