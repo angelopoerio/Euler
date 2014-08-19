@@ -17,5 +17,5 @@ def solve():
 			return i
 
 n = solve()
-print "Answer is {0}".format(n)
+print "Answer is {0}".format(n) # 142857
 
